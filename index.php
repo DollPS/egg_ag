@@ -12,7 +12,19 @@
 				cursor: crosshair;
 			}
 			canvas{display:block}
-			h1 {
+			#h1_1 {
+				position: absolute;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: #F4F5F7;
+				font-family: "Impact,Charcoal,sans-serif";
+				font-size: 5em;
+				font-weight: 800;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+			#h1_2 {
 				position: absolute;
 				top: 40%;
 				left: 50%;
@@ -26,7 +38,7 @@
 			}
 			h2 {
 				position: absolute;
-				top: 80%;
+				top: 60%;
 				left: 50%;
 				transform: translate(-50%, -50%);
 				color: #F4F6F7;
@@ -36,12 +48,45 @@
 				-webkit-user-select: none;
 				user-select: none;
 			}
+
+
+			@media (max-width: 900px) {
+				#h1_1 {
+					font-size: 3em;
+					top: 20%;
+
+				}
+				#h1_2 {
+					font-size: 3em;
+					top: 30%;
+
+				}
+				h2 {
+					font-size: 3em;
+					top: 40%;
+
+				}
+			}
+
+			@media (max-width: 600px) {
+				#h1_1 {
+					font-size: 2em;
+				}
+				#h1_2 {
+					font-size: 2em;
+				}
+				h2 {
+					font-size: 2em;
+				}
+			}
 		</style>
 	</head>
 	<body>
 
 
-		<h1>Feliz cumpleaños</h1> 
+		<h1 id="h1_1">Feliz</h1> 
+		<h1 id="h1_2">cumpleaños</h1> 
+
 		<h2>Sherlyn</h2>
 		<canvas id="birthday"></canvas>
 
