@@ -11,7 +11,9 @@
 				background: #020202;
 				cursor: crosshair;
 			}
-			canvas{display:block}
+			canvas{
+				display:block
+			}
 			#h1_1 {
 				position: absolute;
 				top: 20%;
@@ -252,5 +254,6 @@
 
 			})()
 		</script>
+		
 	</body>
 	</html>
