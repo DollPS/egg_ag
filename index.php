@@ -42,7 +42,7 @@
 
 
 		<h1>Feliz cumpleaños</h1> 
-		<h2>Maria</h2>
+		<h2>Sherlyn</h2>
 		<canvas id="birthday"></canvas>
 
 		<script type="text/javascript">
